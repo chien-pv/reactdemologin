@@ -48,7 +48,6 @@ const routers = createBrowserRouter([
       },
       {
         path: "/login",
-        loader: checkLogin,
         element: <Login />,
       },
     ],
