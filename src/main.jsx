@@ -35,11 +35,11 @@ const routers = createBrowserRouter([
     element: <UserLayout />,
     children: [
       {
-        path: "",
+        path: "contact",
         element: <App />,
       },
       {
-        path: "contact",
+        path: "",
         element: <Contact />,
       },
       {
