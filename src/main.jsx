@@ -31,7 +31,7 @@ function checkLogin() {
 
 const routers = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactdemologin",
     element: <UserLayout />,
     children: [
       {
@@ -53,7 +53,7 @@ const routers = createBrowserRouter([
     ],
   },
   {
-    path: "/admin",
+    path: "/reactdemologin/admin",
     element: <Admin />,
     children: [
       {
